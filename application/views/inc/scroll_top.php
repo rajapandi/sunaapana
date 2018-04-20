@@ -1,0 +1,1 @@
+  <a class="scrollToTop" href="#" style="display: block;"><i class="fa fa-angle-up"></i></a>

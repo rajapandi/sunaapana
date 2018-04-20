@@ -1,0 +1,234 @@
+/* basket container */
+#basketContainer{ 
+    width: 230px;
+    padding-bottom: 5px;
+    z-index: 100000;
+    position: fixed;
+    top: 30%;
+    right:0px;
+    font-size: 11px;
+    margin: 10px;
+}
+
+
+#basketClose{
+
+    background: #ca3200;
+    cursor: pointer;
+    position: absolute;
+    border: 3px #f9bb28 solid;
+    border-bottom: none;
+    color: #fff;
+    font-weight: bold;
+    margin: -15px 0 0 200px;
+    padding: 2px 5px 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+#basketTitleWrap img {
+    position: absolute;
+    margin: -70px 0 0 -80px;
+}
+
+
+
+#basketItemsWrap {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 200px;
+    width: expression(document.body.clientWidth>200?"200":"auto");
+    overflow: auto;
+    padding: 3px;
+}
+
+
+
+#basketTitleWrap { 
+        background-color: #f6aa1b;
+    border: 3px #fcc931 solid;
+    color: #FFF;
+    font-size: 16px;
+    height: 36px;
+    padding: 5px 5px 5px 60px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+#basketItemsWrap li {
+    background-color: #ffffff;
+    font-size: 14px;
+    margin: 1px;
+    padding: 1px 1px 2px 2px;
+    border-bottom: 1px solid #fae3c5;
+}
+
+#basketItemsWrap img {
+    border: 0;
+    vertical-align: middle;
+}
+
+#basketItemsWrap ul li a {
+    color: #000;
+}
+
+#basketItemsWrap a img {
+    float: right;
+    padding: 5px 3px 0 0;
+}
+
+#cb {
+    border: 3px #fcc931  solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#cb th {
+    background-color: #f6aa1b;
+    font-weight: 400;
+    color: #fff;
+    padding: 0 5px;
+}
+
+#cb td {
+    background: #f6aa1b;
+    width: 113px;
+    text-align: center;
+}
+
+
+.bnt a {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin: 2px;
+    padding: 2px 10px;
+}
+
+
+#slctd {
+    font-size: 29px;
+    color: #fff;
+    text-shadow: 0 1px 2px #000;
+    font-weight: bold;
+}
+
+.abs {
+    position: absolute;
+    z-index: 100001;
+    margin: -125px 0 0;
+}
+
+
+#c_wrp {
+    width: 190px;
+    float: right;
+    display: none;
+}
+
+#crtbtn{
+    background-color: #ca3200;
+    border: 3px #fcc931  solid;
+    width: 110px;
+    position: fixed;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    top: 96%;
+    margin: 0 0 0 40px;
+    padding: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+
+
+/* basket container */
+
+
+
+
+.form-control{
+    border: 1px solid #898184;
+}
+
+.grad-head{
+
+    background: linear-gradient(#fffefe,#ddd);
+    padding: 8px 0px;
+
+}
+
+.row-color{
+    background: #f5f5f5;
+}
+
+
+.main-menu .tg-navbar .nav li{ 
+    border-bottom:1px;
+    border-bottom-color:transparent;
+    border-bottom-style:solid;
+}
+/*
+.main-menu .tg-navbar .nav li:hover {
+
+        margin:-2px;
+border-bottom:2px;
+border-bottom-color:#000000;
+border-bottom-style:solid;
+
+}
+
+*/
+.main-menu .tg-navbar .nav > li {
+    border-right: 1px solid #fff;
+}
+
+.main-menu .tg-navbar .nav  ul.dropdown-menu > li{
+    border-bottom: 1px solid #fff;
+}
+
+
+
+
+.border-none{
+    border:none;
+}
+/*
+.hm-enc-bg{
+    margin-left: 10px;
+    padding: 10px 10px;
+    background: #94004e;
+}*/
