@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Kolkata');
 /**
- * CodeIgniter samuel kishore
+ * CodeIgniter samuel kishore arnold kumar 
  *
  * An open source application development framework for PHP
  *
